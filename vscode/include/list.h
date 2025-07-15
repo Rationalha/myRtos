@@ -5,14 +5,13 @@
 
 
 /*节点结构体定义*/
-struct xLIST_ITEM{
+typedef struct xLIST_ITEM{
 	 TickType_t   xItemValue;   //辅助值，用于给节点做排序
-   struct xLIST_ITEM*  pxNext;   //下一个节点
+     struct xLIST_ITEM*  pxNext;   //下一个节点
 	 struct xLIST_ITEM*  pxPrevious;  //前一个节点
 	 void*  pvOwner;      //该节点的拥有者，通常为TCB         
 	 void*  pvContainer;  //指向该链表根节点
-};
-typedef struct xLIST_ITEM  ListItem_t;
+}ListItem_t;
 
 /*定义一个双向链表的结尾节点*/
 typedef struct xMINI_LIST_ITEM{

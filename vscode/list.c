@@ -60,7 +60,18 @@ void vListInsert(List_t* const pvList,ListItem_t* const pvNewItem){
 
 /*将节点从链表中移除*/
 UBaseType_t uxListRemove(ListItem_t* const item){
+     //获取节点的链表
+	List_t*  list=(List_t*)item->pvContainer;
+	//删除该节点
+	item->pxPrevious->pxNext=item->pxNext;
+	item->pxNext->pxPrevious=item->pxPrevious;
+	//确保链表的index有效
+    if(list->pxIndex==item){
+        list->pxIndex=item->pxPrevious;
+	}
+	item->pvContainer=NULL; //清空节点的链表信息
 
-	  //获取节点所在链表
-	  item->pvContainer;
+	(list->uxNumberOfItems)--; //链表数量--
+	
+	return list->uxNumberOfItems;
 }

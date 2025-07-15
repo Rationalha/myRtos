@@ -1,25 +1,24 @@
 Dependencies for Project 'LIZHI_RTOS', Target 'RTOS': (DO NOT MODIFY !)
 CompilerVersion: 6160000::V6.16::ARMCLANG
-F (..\User\main.c)(0x6873549F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../FreeRTOS/include -I ../FreeRTOS/portable/RVDS/ARM_M3 -I ../User-I./RTE/_RTOS-ID:/Keil5/Pack/ARM/CMSIS/5.7.0/CMSIS/Core/Include-ID:/Keil5/Pack/ARM/CMSIS/5.7.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_-o ./objects/main.o -MD)
-F (..\FreeRTOS\list.c)(0x687395A7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../FreeRTOS/include -I ../FreeRTOS/portable/RVDS/ARM_M3 -I ../User-I./RTE/_RTOS-ID:/Keil5/Pack/ARM/CMSIS/5.7.0/CMSIS/Core/Include-ID:/Keil5/Pack/ARM/CMSIS/5.7.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_-o ./objects/list.o -MD)
-I (..\FreeRTOS\include\list.h)(0x687395AE)
-I (..\FreeRTOS\include\portmacro.h)(0x68737E60)
-I (D:\Keil5\Core\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
-I (D:\Keil5\Core\ARM\ARMCLANG\include\stddef.h)(0x6035A4A8)
-I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x68737A29)
-F (..\FreeRTOS\include\list.h)(0x687395AE)()
-F (..\FreeRTOS\include\FreeRTOSConfig.h)(0x68737A29)()
-F (..\FreeRTOS\include\portmacro.h)(0x68737E60)()
-F (..\FreeRTOS\include\FreeRTOSConfig.h)(0x68737A29)()
-F (RTE\Device\ARMCM3\startup_ARMCM3.s)(0x5E8ED12C)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-mlittle-endian -gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_RTOS-ID:/Keil5/Pack/ARM/CMSIS/5.7.0/CMSIS/Core/Include-ID:/Keil5/Pack/ARM/CMSIS/5.7.0/Device/ARM/ARMCM3/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 534" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"ARMCM3 SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_armcm3.o)
-F (RTE\Device\ARMCM3\system_ARMCM3.c)(0x68735478)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../FreeRTOS/include -I ../FreeRTOS/portable/RVDS/ARM_M3 -I ../User-I./RTE/_RTOS-ID:/Keil5/Pack/ARM/CMSIS/5.7.0/CMSIS/Core/Include-ID:/Keil5/Pack/ARM/CMSIS/5.7.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_-o ./objects/system_armcm3.o -MD)
-I (D:\Keil5\Pack\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include\ARMCM3.h)(0x5E8ED12C)
-I (D:\Keil5\Pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
-I (D:\Keil5\Core\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
-I (D:\Keil5\Pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
-I (D:\Keil5\Pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
-I (D:\Keil5\Pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
-I (D:\Keil5\Core\ARM\ARMCLANG\include\arm_compat.h)(0x5EE13552)
-I (D:\Keil5\Core\ARM\ARMCLANG\include\arm_acle.h)(0x6035A4A4)
-I (D:\Keil5\Pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
-I (D:\Keil5\Pack\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include\system_ARMCM3.h)(0x5E8ED12C)
+F (..\User\main.c)(0x6874570D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../FreeRTOS/include -I ../FreeRTOS/portable/RVDS/ARM_M3 -I ../User-I./RTE/_RTOS-ID:/Keil5/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-ID:/Keil5/Packs/ARM/CMSIS/5.7.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_-o ./objects/main.o -MD)
+F (..\FreeRTOS\list.c)(0x68762069)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../FreeRTOS/include -I ../FreeRTOS/portable/RVDS/ARM_M3 -I ../User-I./RTE/_RTOS-ID:/Keil5/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-ID:/Keil5/Packs/ARM/CMSIS/5.7.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_-o ./objects/list.o -MD)
+I (..\FreeRTOS\include\list.h)(0x68761AB2)
+I (..\FreeRTOS\include\portmacro.h)(0x6874570D)
+I (D:\Keil5\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (D:\Keil5\Keil5\ARM\ARMCLANG\include\stddef.h)(0x6035A4A8)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x6874570D)
+F (..\FreeRTOS\include\list.h)(0x68761AB2)()
+F (..\FreeRTOS\include\FreeRTOSConfig.h)(0x6874570D)()
+F (..\FreeRTOS\include\portmacro.h)(0x6874570D)()
+F (RTE\Device\ARMCM3\startup_ARMCM3.s)(0x6874570D)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-mlittle-endian -gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_RTOS-ID:/Keil5/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-ID:/Keil5/Packs/ARM/CMSIS/5.7.0/Device/ARM/ARMCM3/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 534" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"ARMCM3 SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_armcm3.o)
+F (RTE\Device\ARMCM3\system_ARMCM3.c)(0x6874570D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../FreeRTOS/include -I ../FreeRTOS/portable/RVDS/ARM_M3 -I ../User-I./RTE/_RTOS-ID:/Keil5/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-ID:/Keil5/Packs/ARM/CMSIS/5.7.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_-o ./objects/system_armcm3.o -MD)
+I (D:\Keil5\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include\ARMCM3.h)(0x5E8ED12C)
+I (D:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8ED122)
+I (D:\Keil5\Keil5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (D:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8ED122)
+I (D:\Keil5\Keil5\ARM\ARMCLANG\include\arm_compat.h)(0x5EE13552)
+I (D:\Keil5\Keil5\ARM\ARMCLANG\include\arm_acle.h)(0x6035A4A4)
+I (D:\Keil5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (D:\Keil5\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include\system_ARMCM3.h)(0x5E8ED12C)
